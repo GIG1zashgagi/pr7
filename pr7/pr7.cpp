@@ -16,3 +16,5 @@ void PrintFibonacci(int n)
         current = next;
     }
 }
+
+int main()
