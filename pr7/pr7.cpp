@@ -39,4 +39,11 @@ int main()
         system("pause");
         return 1;
     }
+
+    cout << endl << "Первые " << count << " чисел Фибоначчи:" << endl;
+    PrintFibonacci(count);
+
+    cout << endl << endl << "Нажмите любую клавишу для выхода..." << endl;
+    system("pause");
+    return 0;
 }
